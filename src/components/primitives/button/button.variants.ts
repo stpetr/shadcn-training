@@ -6,7 +6,7 @@ export type ButtonVariant = VariantProps<typeof buttonVariants>;
 
 export const buttonVariants = cva(
   [
-    "relative inline-flex shrink-0 items-center justify-center ",
+    "relative inline-flex shrink-0 items-center justify-center",
     "font-medium uppercase cursor-pointer",
     "rounded-sm whitespace-nowrap transition-all outline-none focus-visible:ring-2",
     "disabled:pointer-events-none disabled:opacity-50",
@@ -43,48 +43,36 @@ export const buttonVariants = cva(
           "[--main:var(--color-primary-main)]",
           "[--light:var(--color-primary-light)]",
           "[--contrast:var(--color-primary-contrast)]",
-          "[--tint:var(--color-primary-tint)]",
-          "focus-visible:ring-pink-600/35", // needed?
         ],
         secondary: [
           "[--dark:var(--color-secondary-dark)]",
           "[--main:var(--color-secondary-main)]",
           "[--light:var(--color-secondary-light)]",
           "[--contrast:var(--color-secondary-contrast)]",
-          "[--tint:var(--color-secondary-tint)]",
-          "focus-visible:ring-indigo-600/35",
         ],
         error: [
           "[--dark:var(--color-error-dark)]",
           "[--main:var(--color-error-main)]",
           "[--light:var(--color-error-light)]",
           "[--contrast:var(--color-error-contrast)]",
-          "[--tint:var(--color-error-tint)]",
-          "focus-visible:ring-indigo-600/35",
         ],
         warning: [
           "[--dark:var(--color-warning-dark)]",
           "[--main:var(--color-warning-main)]",
           "[--light:var(--color-warning-light)]",
           "[--contrast:var(--color-warning-contrast)]",
-          "[--tint:var(--color-warning-tint)]",
-          "focus-visible:ring-indigo-600/35",
         ],
         success: [
           "[--dark:var(--color-success-dark)]",
           "[--main:var(--color-success-main)]",
           "[--light:var(--color-success-light)]",
           "[--contrast:var(--color-success-contrast)]",
-          "[--tint:var(--color-success-tint)]",
-          "focus-visible:ring-indigo-600/35",
         ],
         info: [
           "[--dark:var(--color-info-dark)]",
           "[--main:var(--color-info-main)]",
           "[--light:var(--color-info-light)]",
           "[--contrast:var(--color-info-contrast)]",
-          "[--tint:var(--color-info-tint)]",
-          "focus-visible:ring-indigo-600/35",
         ],
       },
     },
