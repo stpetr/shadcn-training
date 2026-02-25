@@ -1,6 +1,9 @@
-import { cn } from "@/lib/utils";
-import { Button as BaseButton } from "@base-ui/react/button";
 import type { ComponentProps, FC } from "react";
+
+import { Button as BaseButton } from "@base-ui/react/button";
+
+import { cn } from "@/lib/utils";
+
 import { buttonVariants, type ButtonVariant } from "./button.variants";
 
 type Props = ComponentProps<typeof BaseButton> & ButtonVariant;
